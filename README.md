@@ -570,7 +570,7 @@ Once you have finished tweaking Auto Update Magic and are using it to deploy new
     3. `autopkg run -v "_____-autoupdate.jss"` (substituting the app name)
         Makes the necessary changes to the Auto Update policy and smart group. After this, all Macs in your organization that have older versions of the app will update to the newest version upon their next check-in.
     4. Flush all logs for the autoupdate policy in Jamf.
-        This clears out the logs so the autoupdate policy will run for the machines once they check in.  I made these policies to run once per computer to eliminate the chance of running an update more than once.  This is especially important when some people may have updated to the latest version before we've approved it in this workflow.
+        This clears out the logs so the autoupdate policy will run for the machines once they check in.  I made these policies to run once per computer to eliminate the chance of running an update more than once.  This is especially important when some people may have updated to the latest version before we've approved it in this workflow.  [see here](https://github.com/homebysix/auto-update-magic/issues/22)
 
 And that's all there is to it.
 
