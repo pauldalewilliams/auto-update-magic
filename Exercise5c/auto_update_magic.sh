@@ -40,6 +40,14 @@ TRIGGERS=(
 
     "Microsoft OneNote"
 
+    "Google Drive"
+
+    "NoMAD"
+
+    "Skype for Business"
+
+    "Skype"
+
 )
 
 # For each recipe above, add a corresponding line here for each "blocking
@@ -52,7 +60,7 @@ BLOCKING_APPS=(
 
     "Firefox" # blocking apps for Firefox
 
-    "Google Chrome" # blocking apps for Chrome
+    "no_blocking_apps" # blocking apps for Chrome
 
     "Safari$, Firefox" # blocking apps for Java 8
 
@@ -65,6 +73,14 @@ BLOCKING_APPS=(
     "no_blocking_apps" # blocking apps for Microsoft Word
 
     "no_blocking_apps" # blocking apps for Microsoft OneNote
+
+    "no_blocking_apps" # blocking apps for Google Drive
+
+    "no_blocking_apps" # blocking apps for NoMAD
+
+    "Microsoft Outlook, Skype for Business" # blocking apps for Skype for Business
+
+    "no_blocking_apps" # blocking apps for Skype
 
 )
 
