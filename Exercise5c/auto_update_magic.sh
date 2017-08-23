@@ -22,13 +22,13 @@
 # the same as the recipe's name. Trigger and recipe names may contain spaces.
 TRIGGERS=(
 
-    "Adobe Flash Player"
+    "AdobeFlashPlayer"
 
     "Firefox"
 
     "Google Chrome"
 
-    "Oracle Java 8"
+    "OracleJava8"
 
     "Microsoft Excel"
 
@@ -91,7 +91,7 @@ PLIST="/Library/Application Support/JAMF/com.jamfsoftware.jamfnation"
 # Set DEBUG_MODE to true if you wish to do a "dry run." This means the custom
 # triggers that cause the apps to actually update will be logged, but NOT
 # actually executed. Set to false prior to deployment.
-DEBUG_MODE=true
+DEBUG_MODE=false
 
 
 ###############################################################################
