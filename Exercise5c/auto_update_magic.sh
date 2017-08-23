@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 ###
@@ -21,25 +22,23 @@
 # the same as the recipe's name. Trigger and recipe names may contain spaces.
 TRIGGERS=(
 
-    # "Adobe Flash Player"
+    "Adobe Flash Player"
 
-    # "Firefox"
+    "Firefox"
 
-    # "Google Chrome"
+    "Google Chrome"
 
-    # "Oracle Java 7"
+    "Oracle Java 8"
 
-    # "Oracle Java 8"
+    "Microsoft Excel"
 
-    # "Office2011Update"
+    "Microsoft Outlook"
 
-    # "Microsoft Excel"
+    "Microsoft PowerPoint"
 
-    # "Microsoft Outlook"
+    "Microsoft Word"
 
-    # "Microsoft PowerPoint"
-
-    # "Microsoft Word"
+    "Microsoft OneNote"
 
 )
 
@@ -49,25 +48,23 @@ TRIGGERS=(
 # line. Use `pgrep -ix _____` to test whether the blocking behaves as expected.
 BLOCKING_APPS=(
 
-    # "no_blocking_apps" # blocking apps for Flash
+    "no_blocking_apps" # blocking apps for Flash
 
-    # "Firefox" # blocking apps for Firefox
+    "Firefox" # blocking apps for Firefox
 
-    # "Google Chrome" # blocking apps for Chrome
+    "Google Chrome" # blocking apps for Chrome
 
-    # "Safari$, Firefox" # blocking apps for Java 7
+    "Safari$, Firefox" # blocking apps for Java 8
 
-    # "Safari$, Firefox" # blocking apps for Java 8
+    "no_blocking_apps" # blocking apps for Microsoft Excel
 
-    # "MSN Messenger, Microsoft Lync, Microsoft Cert Manager, Microsoft Chart Converter, Microsoft Clip Gallery, Microsoft Entourage, Microsoft Outlook, Microsoft Error Reporting, Microsoft Excel, Microsoft Graph, Microsoft Help Viewer, Microsoft Language Register, Microsoft Communicator, Microsoft Messenger, Microsoft PowerPoint, Microsoft Query, Microsoft Word, My Day, Organization Chart, Expression Media, Remote Desktop Connection" # blocking apps for latest Office 2011 update
+    "no_blocking_apps" # blocking apps for Microsoft Outlook
 
-    # "Microsoft Excel, Microsoft Error Reporting, Microsoft AutoUpdate" # blocking apps for Microsoft Excel
+    "no_blocking_apps" # blocking apps for Microsoft PowerPoint
 
-    # "Microsoft Outlook, Microsoft Error Reporting, Microsoft AutoUpdate" # blocking apps for Microsoft Outlook
+    "no_blocking_apps" # blocking apps for Microsoft Word
 
-    # "Microsoft PowerPoint, Microsoft Error Reporting, Microsoft AutoUpdate" # blocking apps for Microsoft PowerPoint
-
-    # "Microsoft Word, Microsoft Error Reporting, Microsoft AutoUpdate" # blocking apps for Microsoft Word
+    "no_blocking_apps" # blocking apps for Microsoft OneNote
 
 )
 
