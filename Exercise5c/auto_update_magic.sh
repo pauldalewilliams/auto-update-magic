@@ -60,7 +60,7 @@ BLOCKING_APPS=(
 
     "Firefox" # blocking apps for Firefox
 
-    "no_blocking_apps" # blocking apps for Chrome
+    "Google Chrome" # blocking apps for Chrome
 
     "Safari$, Firefox" # blocking apps for Java 8
 
