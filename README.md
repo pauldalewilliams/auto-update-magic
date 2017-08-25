@@ -394,7 +394,7 @@ Here we go! Let's start with the recipe override and JSSImporter templates:
     Here is how the files differ from the standard recipes and templates included in jss-recipes:
 
     - __Firefox-autoupdate.jss__ has the policy category set to "Auto Update," so that all the policies created by __-autoupdate.jss__ recipes will be listed together in the Policies page on the JSS.
-    - __PolicyTemplate-autoupdate.xml__ uses "Auto Update Firefox" as the policy name, the policy frequency is set to Ongoing, and the policy is triggered by a custom trigger "autoupdate-Firefox". (The reason for this will become clear in [Exercise 5b](#e5b.)
+    - __PolicyTemplate-autoupdate.xml__ uses "Auto Update Firefox" as the policy name, the policy frequency is set to Once per computer, and the policy is triggered by a custom trigger "autoupdate-Firefox". (The reason for this will become clear in [Exercise 5b](#e5b.)
     - __SmartGroupTemplate-autoupdate.xml__ includes computers from the entire organization which have an obsolete version of Firefox, rather than being limited to the Testing group only.
 
 2. Open Terminal and run your __Firefox-autoupdate.jss__ recipe override:
@@ -569,6 +569,8 @@ Once you have finished tweaking Auto Update Magic and are using it to deploy new
         This steps you through the process of promoting the existing Self Service policy to use the new package.
     3. `autopkg run -v "_____-autoupdate.jss"` (substituting the app name)
         Makes the necessary changes to the Auto Update policy and smart group. After this, all Macs in your organization that have older versions of the app will update to the newest version upon their next check-in.
+    4. Flush all logs for the autoupdate policy in Jamf.
+        This clears out the logs so the autoupdate policy will run for the machines once they check in.  I made these policies to run once per computer to eliminate the chance of running an update more than once.  This is especially important when some people may have updated to the latest version before we've approved it in this workflow.  [see here](https://github.com/homebysix/auto-update-magic/issues/22)
 
 And that's all there is to it.
 
