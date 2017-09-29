@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.SkypeForBusiness-testing</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>CHANNEL</key>
+		<string>Production</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>LOCALE_ID</key>
+		<string>1033</string>
+		<key>NAME</key>
+		<string>Skype for Business</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-testing.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Skype for Business is an instant-messaging client used with Skype for Business Server or with Skype for Business Online (available with Microsoft Office 365)</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%RECIPE_DIR%/SkypeForBusiness.png</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.SkypeForBusiness</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.SkypeForBusiness</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2332e78c11f9b272cf67324baf268421f8312113</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/SkypeForBusiness.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>89a0c4056812e3350251b442ddb7764b2a9f1746b5f44b184810be39c7f7e2e4</string>
+			</dict>
+			<key>com.github.rtrouton.jss.SkypeForBusiness</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cdd7d0966cf81875db546a4b6bcb95ae6501ee59</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/SkypeForBusiness.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>0174ad5ca82722f32dcdde605182dc7e0a769747d6f53cfb4bb17c02037fc4dd</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.SkypeForBusiness</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8db4b03b3f2028bd5793cc12d50566f341af8086</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/SkypeForBusiness/SkypeForBusiness.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>b31d7e0e7c84a2c96dd7f4227a92cce4bdfbce425e377d4535ea1a7bac9bc74a</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Google Drive-testing</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/drive/installgoogledrive.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Google Drive</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-testing.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with Google Drive.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Google Drive.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.GoogleDrive</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.cgerke-recipes.download.GoogleDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d82f71912c84e306e704a7e3b1e2c378360c8897</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.cgerke-recipes/Applications/GoogleDrive.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>52c98bbd7e568bc8dbda499f019b0d404b8d5ae85778af4e8b7dcd418abe7ccc</string>
+			</dict>
+			<key>com.github.autopkg.cgerke-recipes.pkg.GoogleDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d82f71912c84e306e704a7e3b1e2c378360c8897</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.cgerke-recipes/Applications/GoogleDrive.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>66b96d7f660b93b86a543d9bda7bbfa8fb4f3ac8d2b86d4de422ef0f91c4e655</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.GoogleDrive</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d48b3fdcd1e20b21dff6d827019460307a66949e</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Google Drive/Google Drive.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a5c163a28fbc3aa494c470ef3fdaaf42a32dfd670d5c2e2df6e41e9edf5d6439</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

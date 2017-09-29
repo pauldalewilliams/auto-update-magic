@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.NoMAD-testing</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utilities</string>
+		<key>DESCRIPTION</key>
+		<string>NoMAD is a helpful replacement for Active Directory bindings, using Kerberos and other resources to provide Active Directory services.</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/NoMAD.png</string>
+		<key>NAME</key>
+		<string>NoMAD</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate-testing.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.NoMAD</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.jss.NoMAD</key>
+			<dict>
+				<key>git_hash</key>
+				<string>68ff0821516524773df9e5e96e50dd08abc13685</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/NoMAD.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>e76783483df18713bbf19c4b94ad1cd9619091753bd67ee4cf1bf71f62aa55c5</string>
+			</dict>
+			<key>com.github.tbridge.download.NoMAD</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4f5969fd6c6d6c7e5dfbad2f721272ab5a979129</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.tbridge-recipes/NoMAD/NoMAD.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b646093074d78f1f484f66b72810d79000a1b9ccfd6e7bff348e50a772279d17</string>
+			</dict>
+			<key>com.github.tbridge.pkg.NoMAD</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0e63746423cea4a647cbc662832373be1f6b941d</string>
+				<key>path</key>
+				<string>/Users/paulwilliams/Library/AutoPkg/RecipeRepos/com.github.autopkg.tbridge-recipes/NoMAD/NoMAD.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>99d9e306caae161e0385652f647b8518a9bba8069e55aacdc7f677896faf52e5</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
